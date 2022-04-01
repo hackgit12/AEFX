@@ -44,11 +44,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ɪɴ yᴏᴜʀ ɢʀᴏᴜᴩ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🕹️ ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP')
+            InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴩ🥵', callback_data='help'),
-            InlineKeyboardButton('☠️ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP'),
+            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -87,11 +86,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ɪɴ yᴏᴜʀ ɢʀᴏᴜᴩ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🕹️ ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP')
+            InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ʜᴇʟᴩ🥵', callback_data='help'),
-            InlineKeyboardButton('☠️ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP'),
+            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
