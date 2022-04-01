@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP')
+                InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/MF_Movieschat')
             ],
             [
-                InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇ', url='https://t.me/FPHDMOVE')
+                InlineKeyboardButton('📢ᴜᴩᴅᴀᴛᴇ', url='https://t.me/FPHDMOVE'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -46,7 +46,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP'),
+            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/MF_Movieschat'),
             InlineKeyboardButton('📢ᴄʜᴀɴɴᴇʟ', url='https://t.me/FPHDMOVE')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -88,7 +88,7 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍 ꜱᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/FILIMPIRATESGROUP'),
+            InlineKeyboardButton('🕹️ɢʀᴏᴜᴩ', url='https://t.me/MF_Movieschat'),
             InlineKeyboardButton('📢ᴄʜᴀɴɴᴇʟ', url='https://t.me/FPHDMOVE')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
